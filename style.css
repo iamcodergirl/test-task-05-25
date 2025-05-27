@@ -13,7 +13,6 @@ body {
 }
 
 table {
-	caption-side: bottom;
 	border-collapse: collapse;
 }
 .container {
@@ -50,8 +49,11 @@ table {
 .table td img {
 	width: 200px;
 	height: 160px;
+	display: block;
+	margin-top: 6px;
 }
 .table td ul{
+	margin-top: 0;
     padding-left: 16px;
 }
 
@@ -60,6 +62,7 @@ table {
 }
 .media-content .media-image {
 	float: left;
+	margin-top: 6px;
 	margin-right: 20px;
 	margin-bottom: 10px;
 	max-width: 174px;
