@@ -12,6 +12,10 @@ body {
 	line-height: 1.5;
 }
 
+a:hover{
+	text-decoration: none;
+}
+
 table {
 	border-collapse: collapse;
 }
@@ -20,9 +24,6 @@ table {
 	margin-inline: auto;
 	padding-left: 20px;
 	padding-right: 20px;
-}
-a:hover{
-	text-decoration: none;
 }
 
 .list-custom ol > li:not(:first-child) {
