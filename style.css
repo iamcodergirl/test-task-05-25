@@ -21,6 +21,9 @@ table {
 	padding-left: 20px;
 	padding-right: 20px;
 }
+a:hover{
+	text-decoration: none;
+}
 
 .list-custom ol > li:not(:first-child) {
 	margin-top: 20px;
